@@ -1,5 +1,5 @@
 // "var" can be hoisted, and declared later also
-console.log(v); 
+console.log(v);
 var v = "hey i am var"
 
 // "let" can be hoisted but stays in Temporal Dead Zone until declares
@@ -11,8 +11,12 @@ let l = "yo, it's let"
 // console.log(c);
 const c = "hi, const here"
 
+// var = Function scoped
+// let, const = Block scoped
 // --------------------------------------------
-function test(){
+
+// testing the nature of var and let
+function test() {
     console.log("Hi")
     console.log("Hello")
     let x;
@@ -24,6 +28,5 @@ function test(){
     let z = 3
     num = 65
 }
-
 
 test()
