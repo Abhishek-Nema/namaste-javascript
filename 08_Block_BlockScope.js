@@ -23,7 +23,3 @@ else {
 }
 
 // Block scope : region inside a block (enclosed within {}) where variables and functions declared using let or const are accessible.
-
-
-
-
